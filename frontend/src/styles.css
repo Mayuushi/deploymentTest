@@ -1,0 +1,12 @@
+:root{
+  --bg:#0b1220;
+  --card:#0f1724;
+  --muted:#9aa7bf;
+}
+*{box-sizing:border-box}
+html,body,#root{height:100%;margin:0}
+body{font-family:Inter,Segoe UI,Roboto,Arial,sans-serif;background:var(--bg);color:#e6eef8;padding:24px}
+.app{max-width:900px;margin:0 auto}
+h1{font-size:20px;margin:0 0 12px}
+.hint{color:var(--muted);margin-top:8px}
+.canvas-wrap{background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(0,0,0,0.02));border-radius:8px;overflow:hidden;padding:8px}
